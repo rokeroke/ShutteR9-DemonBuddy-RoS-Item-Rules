@@ -8,7 +8,7 @@ This is my item rules that I keep updated for DemonBuddy. There have been a lot 
 <p>![DemonBuddy Trinity settings for Item Rules](http://i.imgur.com/VKUHM7e.png)</p>
 <p>![DemonBuddy selecting custom folder for item rules](http://i.imgur.com/v3j2byr.png)</p>
 4. Click "Reload script rules" and you should see the rules show in the DB log. Save these settings and you won't have to do this again :)
-![DemonBuddy reload item script rules](http://i.imgur.com/WBQ1P8M.png)
+<p>![DemonBuddy reload item script rules](http://i.imgur.com/WBQ1P8M.png)</p>
 
 ## Troubleshooting
 If you have any problems setting this up, please don't waste your time asking me. Do yourself and everyone a favor and either check my thread, or browse the DemonBuddy forums for help doing this. You'll learn much more by figuring stuff out on your own, trust me ;)
