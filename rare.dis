@@ -200,8 +200,7 @@
 // | DEF: [VIT] == 200, [LIFE%] == 12, [ALLRES] == 80, [MAXONERES] == 60, [ARMOR] == 397
 // | ADD: [SOCKETS] == 1, [REGEN] == 342, [GF%] == 25, [MF%] == 20
 // +---------------------------------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "Helm" # ([MAXSTAT] >= 600 && [VIT] >= 600 && ([ALLRES] >= 86 || [CRIT%] >= 6))
-//[QUALITY] == "Rare" && [TYPE] == "Helm" # [MAXSTAT] > 575 && [SOCKETS] > 0 && [ALLRES] > 86 && ([LIFE%] > 11 || [CRIT%] > 5)
+[QUALITY] == "Rare" && [TYPE] == "Helm" # [MAXSTAT] >= 600 && [VIT] >= 600 && [CRIT%] >= 5 && (([ALLRES] >= 86 || [LIFE%] > 11) || [SOCKETS] >= 1)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Helm" -> [TRASH]
 
