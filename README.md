@@ -11,4 +11,4 @@ This is my item rules that I keep updated for DemonBuddy. There have been a lot 
 <p>![DemonBuddy reload item script rules](http://i.imgur.com/WBQ1P8M.png)</p>
 
 ## Troubleshooting
-If you have any problems setting this up, please don't waste your time asking me. Do yourself and everyone a favor and either check my thread, or browse the DemonBuddy forums for help doing this. You'll learn much more by figuring stuff out on your own, trust me ;)
+If you have any problems setting this up, please don't waste your time posting for help before searching. Do yourself and everyone a favor by either checking my [thread](http://www.thebuddyforum.com/demonbuddy-forum/plugins/155575-item-rules-shutters-updated-item-rules-ros.html), or by browsing the [DemonBuddy forums](http://www.thebuddyforum.com/demonbuddy-forum/) for help. You'll learn much more by figuring stuff out on your own, trust me ;)
