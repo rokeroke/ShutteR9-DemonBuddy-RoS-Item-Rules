@@ -272,9 +272,9 @@
 // +-----------------------------------------------------+
 [QUALITY] == "Rare" && [TYPE] == "Gloves" # [MAXSTAT] >= 300 && [CRIT%] >= 8 && [AS%] >= 6 && [CRITDMG%] >= 40
 // For rerolling:
-[QUALITY] == "Rare" && [TYPE] == "Gloves" # ([MAXSTAT] >= 525 && [CRIT%] >= 8 && [AS%] >= 6)
-[QUALITY] == "Rare" && [TYPE] == "Gloves" # ([MAXSTAT] >= 525 && [CRIT%] >= 8 && [CRITDMG%] >= 40)
-[QUALITY] == "Rare" && [TYPE] == "Gloves" # ([MAXSTAT] >= 525 && [AS%] >= 6 && [CRITDMG%] >= 40)
+[QUALITY] == "Rare" && [TYPE] == "Gloves" # [MAXSTAT] >= 525 && [CRIT%] >= 8 && [AS%] >= 6
+[QUALITY] == "Rare" && [TYPE] == "Gloves" # [MAXSTAT] >= 525 && [CRIT%] >= 8 && [CRITDMG%] >= 40
+[QUALITY] == "Rare" && [TYPE] == "Gloves" # [MAXSTAT] >= 525 && [AS%] >= 6 && [CRITDMG%] >= 40
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Gloves" -> [TRASH]
 
