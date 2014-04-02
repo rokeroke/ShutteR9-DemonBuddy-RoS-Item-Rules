@@ -82,3 +82,35 @@
 
 // keep demonic essences
 [TYPE] == "CraftingReagent"
+
+// keep armor whites for crafting purposes
+// comment out if you dont want to pick up
+// [TYPE] == "Helm" && [NAME] == "Ascended Crown"
+// [TYPE] == "Shoulder" && [NAME] == "Ascended Pauldrons"
+// [TYPE] == "Chest" && [NAME] == "Ascended Armor"
+// [TYPE] == "Bracer" && [NAME] == "Ascended Bracers"
+// [TYPE] == "Gloves" && [NAME] == "Ascended Gauntlets"
+// [TYPE] == "Shoulder" && [NAME] == "Ascended Faulds"
+// [TYPE] == "Legs" && [NAME] == "Ascended Greaves"
+// [TYPE] == "Shield" && [NAME] == "Ascended Shield"
+// [TYPE] == "Belt" && [NAME] == "Archon Sash"
+
+// keep weapon whites for crafting purposes
+// comment out if you dont want to pick up
+// [TYPE] == "Dagger" && [NAME] == "Punyal"
+// [TYPE] == "Fist" && [NAME] == "Suwaiya"
+// [TYPE] == "Mace" && [NAME] == "Skullsplitter"
+// [TYPE] == "Sword" && [NAME] == "Tsunami Blade"
+// [TYPE] == "CeremonialDagger" && [NAME] == "Tecpatl"
+// [TYPE] == "MightyWeapon" && [NAME] == "Limb Cleaver"
+// [TYPE] == "Axe" && [NAME] == "Dire Axe"
+// [NAME] == "Grandfather Flail"
+// [TYPE] == "Axe" && [NAME] == "Flesh Render"
+// [TYPE] == "Daibo" && [NAME] == "Whirlwind Staff"
+// [TYPE] == "Staff" && [NAME] == "Kerykeion"
+// [TYPE] == "Mace" && [NAME] == "Persuader"
+// [TYPE] == "MightyWeapon" && [NAME] == "Steppes Smasher"
+// [TYPE] == "Crossbow" && [NAME] == "Oxybeles"
+// [TYPE] == "HandCrossbow" && [NAME] == "Penetrator"
+// [TYPE] == "Bow" && [NAME] == "Doubleshot"
+// [TYPE] == "Wand" && [NAME] == "Diabolic Wand"
