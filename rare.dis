@@ -300,6 +300,8 @@
 // | -- Legs
 // +---------------------------------------------------------------------------+
 [QUALITY] == "Rare" && [TYPE] == "Legs" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 60 && [SOCKETS] > 1
+//For rerolling:
+[QUALITY] == "Rare" && [TYPE] == "Legs" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 60 && [ARMORBONUS] > 1
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Legs" -> [TRASH]
 
