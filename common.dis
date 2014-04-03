@@ -12,6 +12,7 @@
 [QUALITY] == "Special" -> [KEEP]
 
 // legendary plans
+[TYPE] == "CraftingPlan"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Hellish Staff of Herding"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Infernal Staff of Herding"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Nightmarish Staff of Herding"
