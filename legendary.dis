@@ -6,17 +6,99 @@
 // | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                                       
 // +---------------------------------------------------------------------------+
 
-// keep all legendarys items
-// this is a saftey line ... as long it isn't removed it will keep all items
-// specifyed by the rule ... the action of commenting it out
-// will apply all following rules ... this set of rules is no where of complete
+// +-----------------------------------------------------+
+// +---------- Safety Rules
+// +-----------------------------------------------------+
+
+// Keep all Legendary items
 [QUALITY] == "Legendary" -> [KEEP]
 
-// keep all Weapon for now
+// Keep all Legendary weapons
 //[QUALITY] == "Legendary" && [BASETYPE] == "Weapon" -> [KEEP]
 
-// keep all Armor for now
+// Keep all Legendary armor
 //[QUALITY] == "Legendary" && [BASETYPE] == "Armor" -> [KEEP]
 
-// keep all jewelerys for now
+// Keep all Legendary jewelry
 //[QUALITY] == "Legendary" && [BASETYPE] == "Jewelry" -> [KEEP]
+
+// +-----------------------------------------------------+
+// +---------- Legendary Plans
+// +-----------------------------------------------------+
+
+[TYPE] == "CraftingPlan"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Hellish Staff of Herding"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Infernal Staff of Herding"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Nightmarish Staff of Herding"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Staff of Herding"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Born's Defiance"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Cain's Fate"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Lai Yui's Taiji"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Longshot"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Quick Draw Belt"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Umbral Oath"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Unending War"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Wall of Bone"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Bitterness"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Captain Crimson's Finery"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: The Magi"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: The Wedge"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Aughild's Victory"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Deadeye"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Pendergrasps"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Asheara's Uniform"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Cataclysm"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Demon Hand"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Harvest Moon"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Singularity"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Guardian's Contingency"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Lost Boys"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Starspine"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Black Bone Arrows"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Blood-Magic Edge"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Demon's Skin"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Earthshatter"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Fire Brand"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Gehennas"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Griswold's Masterpiece"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Hallowed Defenders"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Robes of the Rydraelm"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Rozpedin's Staff"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Ruinstoke"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Sage's Plight"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Seven Sins"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: The Helm of Rule"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Venomhusk"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Wondrous Deflectors"
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Infernal Machine"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Golden Scourge"
+[Type] == "CraftingPlan" && [NAME] == "Plan: War of the Dead"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Arcane Barb"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Archfiend Arrows"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Atrophy"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Blitzbolter"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Board Walkers"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Cinder Switch"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Corruption"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Cosmic Strand"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Demon Claw"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Devastator"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Fleeting Strap"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Griswold's Perfection"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Kethryes' Splint"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Lai Yui's Persuader"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Living Umbral Oath"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Mantle of the Rydraelm"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Mark of the Magi"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Night's Reaping"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Penders Purchase"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Reaper's Wraps"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Rozpedin's Force"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Skelons Deceit"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Spite"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Sunder"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Sydyru Crust"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Unbound Bolt"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Utar's Roar"
+[Type] == "CraftingPlan" && [NAME] == "Plan: Wall of Man
+[Type] == "CraftingPlan" && [NAME] == "Plan: Piro Marella"
