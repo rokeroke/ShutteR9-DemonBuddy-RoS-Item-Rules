@@ -87,7 +87,7 @@
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Utar's Roar"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Venomhusk"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Wall of Bone"
-[TYPE] == "CraftingPlan" && [NAME] == "Plan: Wall of Man
+[TYPE] == "CraftingPlan" && [NAME] == "Plan: Wall of Man"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: War of the Dead"
 [TYPE] == "CraftingPlan" && [NAME] == "Plan: Wondrous Deflectors"
 
@@ -117,8 +117,15 @@
 // keep demonic essences
 [TYPE] == "CraftingReagent"
 
-// keep armor whites for crafting purposes
-// comment out if you dont want to pick up
+// +---------------------------------------------------------------------------+
+// +---------- Crafting Whites
+// +---------------------------------------------------------------------------+
+
+// +-----------------------------------------------------+
+// +---------- Armor
+// +---------- Uncomment (remove the //) on the lines
+// +---------- to stash the items
+// +-----------------------------------------------------+
 // [TYPE] == "Belt" && [NAME] == "Archon Sash"
 // [TYPE] == "Bracer" && [NAME] == "Ascended Bracers"
 // [TYPE] == "Chest" && [NAME] == "Ascended Armor"
@@ -129,8 +136,11 @@
 // [TYPE] == "Shoulder" && [NAME] == "Ascended Faulds"
 // [TYPE] == "Shoulder" && [NAME] == "Ascended Pauldrons"
 
-// keep weapon whites for crafting purposes
-// comment out if you dont want to pick up
+// +-----------------------------------------------------+
+// +---------- Weapons
+// +---------- Uncomment (remove the //) on the lines
+// +---------- to stash the items
+// +-----------------------------------------------------+
 // [NAME] == "Grandfather Flail"
 // [TYPE] == "Axe" && [NAME] == "Dire Axe"
 // [TYPE] == "Axe" && [NAME] == "Flesh Render"
