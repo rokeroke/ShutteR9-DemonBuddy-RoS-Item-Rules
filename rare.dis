@@ -132,7 +132,7 @@
 // +---------------------------------------------------------------------------+
 // +---------- Two-Handed
 // +---------------------------------------------------------------------------+
-[QUALITY] == "Rare" && [BASETYPE] == "Weapon" && [TWOHAND] == true # [DPS] > 2700 && [MAXSTAT] >= 1000 && [SOCKETS] > 0 && ([LOH] >= 3000 || [LOK] >= 6000)
+[QUALITY] == "Rare" && [BASETYPE] == "Weapon" && [TWOHAND] == true # [DPS] > 2700 && [MAXSTAT] >= 900 && [SOCKETS] > 0 && ([LOH] >= 3000 || [LOK] >= 6000)
 
 // +-----------------------------------------------------+
 // +---------- Staff
@@ -206,7 +206,7 @@
 // +---------- WizardHat
 // +-- Class: [ARCONCRIT] == 10, [MAXARCPOWER] == 15
 // +-----------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "WizardHat" # ([MAXSTAT] >= 600 && [VIT] >= 600 && ([ALLRES] >= 86 || [CRIT%] >= 6))
+[QUALITY] == "Rare" && [TYPE] == "WizardHat" # [MAXSTAT] >= 600 && [VIT] >= 600 && [CRIT%] >= 5 && (([ALLRES] >= 86 || [LIFE%] > 11) || [SOCKETS] >= 1)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "WizardHat" -> [TRASH]
 
@@ -214,6 +214,7 @@
 // +---------- VoodooMask
 // +-- Class: [MAXMANA] == 150, [MANAREG] == 14
 // +-----------------------------------------------------+
+[QUALITY] == "Rare" && [TYPE] == "VoodooMask" # [MAXSTAT] >= 600 && [VIT] >= 600 && [CRIT%] >= 5 && (([ALLRES] >= 86 || [LIFE%] > 11) || [SOCKETS] >= 1)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "VoodooMask" -> [TRASH]
 
@@ -226,8 +227,7 @@
 // +---------------------------------------------------------------------------+
 // | -- Shoulders
 // +---------------------------------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "Shoulder" # ([MAXSTAT] >= 400 && [VIT] >= 400 && [ALLRES] >= 86)
-[QUALITY] == "Rare" && [TYPE] == "Shoulder" # [MAXSTAT] > 400 && [VIT] > 400 && [LIFE%] > 11 && [ALLRES] > 70
+[QUALITY] == "Rare" && [TYPE] == "Shoulder" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 86 && [LIFE%] > 11
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Shoulder" -> [TRASH]
 
@@ -297,9 +297,9 @@
 // +---------------------------------------------------------------------------+
 // | -- Legs
 // +---------------------------------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "Legs" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 60 && [SOCKETS] > 1
+[QUALITY] == "Rare" && [TYPE] == "Legs" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 86 && [SOCKETS] > 1
 //For rerolling:
-[QUALITY] == "Rare" && [TYPE] == "Legs" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 60 && [ARMORBONUS] > 1
+[QUALITY] == "Rare" && [TYPE] == "Legs" # [MAXSTAT] > 400 && [VIT] > 400 && [ALLRES] > 86 && [ARMORBONUS] > 1
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Legs" -> [TRASH]
 
@@ -339,7 +339,7 @@
 // +---------------------------------------------------------------------------+
 // | -- Quivers
 // +---------------------------------------------------------------------------+
-//[QUALITY] == "Rare" && [TYPE] == "Quiver" # [DEXVIT] > 300 && [AS%] > 14 && [CRIT%] > 8 && ([MAXDISCIP] >= 10 || [HATREDREG] > 1 || [LIFE%] >= 12)
+[QUALITY] == "Rare" && [TYPE] == "Quiver" # [DEX] > 600 && [AS%] >= 15 && [CRIT%] >= 8 && ([MAXDISCIP] >= 10 || [HATREDREG] > 1 || [LIFE%] >= 12)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Quiver" -> [TRASH]
 
