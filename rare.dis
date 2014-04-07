@@ -79,14 +79,14 @@
 // +---------------------------------------------------------------------------+
 // +---------- One-Handed
 // +---------------------------------------------------------------------------+
-[QUALITY] == "Rare" && [BASETYPE] == "Weapon" && [ONEHAND] == true # [DPS] >= 2000 && [SOCKETS] > 0 && [MAXSTAT] >= 600 && ([LOH] >= 1500 || [LOK] >= 5000)
+[QUALITY] == "Rare" && [BASETYPE] == "Weapon" && [ONEHAND] == true # [DPS] >= 2000 && [SOCKETS] > 0 && [MAXSTAT] >= 600 && ([LOH] >= 1400 || [LOK] >= 4000)
 
 // +-----------------------------------------------------+
 // +---------- Wand
 // +---------- Class: Wizard
 // +---------- Class: [ARCONCRIT] [MAXARCPOWER]
 // +-----------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "Wand" # [DPS] >= 2000 && [INT] >= 600 && [SOCKETS] > 0 && ([MAXARCPOWER] > 10 || [ARCONCRIT] > 8) && ([LOH] >= 1800 || [LOK] >= 5000)
+[QUALITY] == "Rare" && [TYPE] == "Wand" # [DPS] >= 2000 && [INT] >= 600 && [SOCKETS] > 0 && ([MAXARCPOWER] >= 10 || [ARCONCRIT] >= 8) && ([LOH] >= 1300 || [LOK] >= 4000)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Wand" -> [TRASH]
 
@@ -95,7 +95,7 @@
 // +---------- Class: Witch Doctor
 // +---------- Class: [MAXMANA] [MANAREG]
 // +-----------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "CeremonialDagger" # [DPS] >= 2000 && [INT] >= 600 && [SOCKETS] > 0 && ([MAXMANA] > 130 || [MANAREG] > 12) && ([LOH] >= 1800 || [LOK] >= 5000)
+[QUALITY] == "Rare" && [TYPE] == "CeremonialDagger" # [DPS] >= 2000 && [INT] >= 600 && [SOCKETS] > 0 && ([MAXMANA] >= 125 || [MANAREG] >= 12) && ([LOH] >= 1300 || [LOK] >= 4000)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "CeremonialDagger" -> [TRASH]
 
@@ -155,6 +155,7 @@
 // +-----------------------------------------------------+
 // +---------- Bow
 // +-----------------------------------------------------+
+[QUALITY] == "Rare" && [TYPE] == "Bow" # [DPS] >= 3500 && [DEX] >= 600 && [SOCKETS] > 0 &&
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Bow" -> [TRASH]
 
@@ -325,21 +326,21 @@
 // +---------------------------------------------------------------------------+
 // | -- Mojos
 // +---------------------------------------------------------------------------+
-//[QUALITY] == "Rare" && [TYPE] == "Mojo" # [INTVIT] > 300 && [AVGDMG] > 200 && [CRIT%] > 9 && ([MAXMANA] >= 80 || [MANAREG] >= 9 || [LIFE%] >= 12)
+[QUALITY] == "Rare" && [TYPE] == "Mojo" # [INT] >= 600 && [AVGDMG] >= 340 && [CRIT%] >= 9 && ([MAXMANA] >= 100 || [MANAREG] >= 10 || [LIFE%] >= 12 || [SOCKETS] > 0)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Mojo" -> [TRASH]
 
 // +---------------------------------------------------------------------------+
 // | -- Orbs
 // +---------------------------------------------------------------------------+
-//[QUALITY] == "Rare" && [TYPE] == "Orb" # [INTVIT] > 300 && [AVGDMG] > 200 && [CRIT%] > 9 && ([ARCONCRIT] >= 10 || [MAXARCPOWER] >= 15 || [LIFE%] >= 12)
+[QUALITY] == "Rare" && [TYPE] == "Orb" # [INT] >= 600 && [AVGDMG] >= 340 && [CRIT%] >= 9 && ([ARCONCRIT] >= 10 || [MAXARCPOWER] >= 15 || [LIFE%] >= 12 || [SOCKETS] > 0)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Orb" -> [TRASH]
 
 // +---------------------------------------------------------------------------+
 // | -- Quivers
 // +---------------------------------------------------------------------------+
-[QUALITY] == "Rare" && [TYPE] == "Quiver" # [DEX] > 600 && [AS%] >= 15 && [CRIT%] >= 8 && ([MAXDISCIP] >= 10 || [HATREDREG] > 1 || [LIFE%] >= 12)
+[QUALITY] == "Rare" && [TYPE] == "Quiver" # [DEX] > 600 && [AS%] >= 15 && [CRIT%] >= 8 && ([MAXDISCIP] >= 9 || [HATREDREG] > 1 || [LIFE%] >= 10)
 // trash rule
 [QUALITY] == "Rare" && [TYPE] == "Quiver" -> [TRASH]
 
@@ -352,6 +353,8 @@
 // +---------------------------------------------------------------------------+
 // | -- Amulet
 // +---------------------------------------------------------------------------+
+[QUALITY] == "Rare" && [TYPE] == "Amulet" # [MAXSTAT] >= 550 && [CRIT%] >= 7 && [CRITDMG%] >= 70 && ([AS%] >= 5 || [AVGDMG] > 60)
+// For rerolling:
 [QUALITY] == "Rare" && [TYPE] == "Amulet" # [MAXSTAT] >= 575 && [CRIT%] >= 8 && [CRITDMG%] >= 80
 [QUALITY] == "Rare" && [TYPE] == "Amulet" # [MAXSTAT] >= 575 && [CRIT%] >= 8 && [AS%] >= 6
 [QUALITY] == "Rare" && [TYPE] == "Amulet" # [MAXSTAT] >= 575 && [AS%] >= 6 && [CRITDMG%] >= 80
@@ -362,7 +365,7 @@
 // | -- Ring
 // +---------------------------------------------------------------------------+
 [QUALITY] == "Rare" && [TYPE] == "Ring" # [MAXSTAT] >= 360 && [CRIT%] >= 4 && [CRITDMG%] >= 30 && ([VIT] >= 350 || [ALLRES] >= 60 || [AS%] > 4 || [AVGDMG] > 70)
-[QUALITY] == "Rare" && [TYPE] == "Ring" # [MAXSTAT] >= 380 && [CRIT%] >= 5 && [CRITDMG%] >= 40
+[QUALITY] == "Rare" && [TYPE] == "Ring" # [MAXSTAT] >= 370 && [CRIT%] >= 5 && [CRITDMG%] >= 40
 // For rerolling:
 [QUALITY] == "Rare" && [TYPE] == "Ring" # [MAXSTAT] >= 390 && [CRIT%] >= 5 && [AS%] >= 6
 [QUALITY] == "Rare" && [TYPE] == "Ring" # [MAXSTAT] >= 390 && [CRITDMG%] >= 40 && [AS%] >= 6 
