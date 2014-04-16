@@ -136,14 +136,14 @@
 // +---------- to stash the items
 // +-----------------------------------------------------+
 // [TYPE] == "Belt" && [NAME] == "Archon Sash"
-[TYPE] == "Bracer" && [NAME] == "Ascended Bracers"
+// [TYPE] == "Bracer" && [NAME] == "Ascended Bracers"
 // [TYPE] == "Chest" && [NAME] == "Ascended Armor"
 // [TYPE] == "Gloves" && [NAME] == "Ascended Gauntlets"
-[TYPE] == "Helm" && [NAME] == "Ascended Crown"
+// [TYPE] == "Helm" && [NAME] == "Ascended Crown"
 // [TYPE] == "Legs" && [NAME] == "Ascended Greaves"
 // [TYPE] == "Shield" && [NAME] == "Ascended Shield"
 // [TYPE] == "Shoulder" && [NAME] == "Ascended Faulds"
-[TYPE] == "Shoulder" && [NAME] == "Ascended Pauldrons"
+// [TYPE] == "Shoulder" && [NAME] == "Ascended Pauldrons"
 
 // +-----------------------------------------------------+
 // +---------- Weapons
@@ -154,7 +154,7 @@
 // [TYPE] == "Axe" && [NAME] == "Dire Axe"
 // [TYPE] == "Axe" && [NAME] == "Flesh Render"
 [TYPE] == "Bow" && [NAME] == "Doubleshot"
-[TYPE] == "CeremonialDagger" && [NAME] == "Tecpatl"
+// [TYPE] == "CeremonialDagger" && [NAME] == "Tecpatl"
 // [TYPE] == "Crossbow" && [NAME] == "Oxybeles"
 // [TYPE] == "Dagger" && [NAME] == "Punyal"
 // [TYPE] == "Daibo" && [NAME] == "Whirlwind Staff"
